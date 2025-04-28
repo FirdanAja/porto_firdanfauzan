@@ -11,8 +11,6 @@ import ScrollVelocity from "./components/ScrollVelocity/ScrollVelocity";
 import { Card } from "./components/Cards/Card";
 import { WavyBackground } from "./components/Wavy/Wavy-background";
 
-
-
 export default function Home() {
   return (
     <div className="min-h-screen overflow-x-hidden bg-black">
@@ -27,7 +25,10 @@ export default function Home() {
         />
       </div>
       {/* Hero Section */}
-      <div className="container mx-auto min-h-screen flex items-center px-4">
+      <div
+        className="container mx-auto min-h-screen flex items-center px-4"
+        data-aos="fade-up"
+      >
         <div className="grid grid-cols-1 md:grid-cols-12 w-full h-full">
           {/* Text Content */}
           <div className="md:col-span-6 flex items-center">
