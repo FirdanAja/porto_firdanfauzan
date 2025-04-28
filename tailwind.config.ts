@@ -12,8 +12,18 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        marquee: "marquee 10s linear infinite", // durasi lebih cepat
+      },
+      keyframes: {
+        marquee: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-50%)" }, // cukup geser separuh
+        },
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
