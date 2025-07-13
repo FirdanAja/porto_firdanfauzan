@@ -156,8 +156,8 @@ export default function Home() {
             <div className="flex animate-marquee gap-4 min-w-max py-1">
               {[...Array(2)].map((_, repeatIndex) =>
                 [
-                  "/assets/icons/html.svg",
-                  "/assets/icons/css.svg",
+                  "/assets/icons/HTML.svg",
+                  "/assets/icons/CSS.svg",
                   "/assets/icons/vue.svg",
                   "/assets/icons/react.svg",
                   "/assets/icons/tailwind.svg",
@@ -418,7 +418,7 @@ export default function Home() {
             <div className="flex flex-col items-center">
               <div className="bg-gray-800 p-3 rounded-full mb-4">
                 <img
-                  src="/assets/icons/instagram.svg"
+                  src="/assets/icons/Instagram.svg"
                   alt="Email"
                   className="w-20 h-20"
                 />
